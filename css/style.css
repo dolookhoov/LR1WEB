@@ -88,8 +88,14 @@ footer {
 margin-top: 15px;
 margin-left: 15px;
 margin-bottom: 0px;
+color: #ffffff;
 }
 
 .row4 {
     font-size: 80%;
+}
+
+.lead  {
+    color: #ffffff;
+    font-size: 180%
 }
