@@ -87,31 +87,31 @@ $(document).ready(function() {
 			<input readonly class="product0"></input>
 			<input readonly class="amount0"></input>
 			</div>`)
-			$('.product0').val("Product1");
+			$('.product0').val("Контроллер Pioneer ddj400");
 			$('.amount0').val(cart[i]);
 					break;
 
 				case 1: 
-					//var t = "Product2";
+					//var t = "Микшер Behringer Pro Mixer";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product1"></input>
 			<input readonly class="amount1"></input>
 			</div>`)
-			$('.product1').val("Product2");
+			$('.product1').val("Микшер Behringer Pro Mixer");
 			$('.amount1').val(cart[i]);
 					break;
 		
 				case 2:
-					//var t = "Product3";
+					//var t = "Montarbo DSI-22";
 					document.querySelector('.cart-body').insertAdjacentHTML(
 			'afterbegin',
 			`<div class="row">
 			<input readonly class="product2"></input>
 			<input readonly class="amount2"></input>
 			</div>`)
-			$('.product2').val("Product3");
+			$('.product2').val("Montarbo DSI-22");
 			$('.amount2').val(cart[i]);
 					break;
 			
@@ -123,7 +123,7 @@ $(document).ready(function() {
 			<input readonly class="product3"></input>
 			<input readonly class="amount3"></input>
 			</div>`)
-			$('.product3').val("Product4");
+			$('.product3').val("Gemini MDJ-500");
 			$('.amount3').val(cart[i]);
 					break;
 			
@@ -135,7 +135,7 @@ $(document).ready(function() {
 			<input readonly class="product4"></input>
 			<input readonly class="amount4"></input>
 			</div>`)
-			$('.product4').val("Product5");
+			$('.product4').val("Yamaha HS5");
 			$('.amount4').val(cart[i]);
 					break;
 
